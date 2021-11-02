@@ -32,7 +32,9 @@ Jupyter_Notebook_environment.txt contains all packages version of Jupyter Notebo
 
 ## Training
 Upload the "310552017_Adjust_ResNet152.ipynb" and the classfied dataset file which is classify above to colab with google drive and running "310552017_Adjust_ResNet152.ipynb" file to training the model.
+
 Remember to replace the root of the image file with your root.
+
 The training parameters are:
 
 Model | learning rate | Image size | Training Epochs | Batch size | optimizer
