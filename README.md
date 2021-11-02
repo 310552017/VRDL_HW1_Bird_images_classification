@@ -9,7 +9,7 @@ External data is NOT allowed to train the model!
 
 ## Reproducing Submission
 To reproduct the testing prediction, please follow the:
-1. [Jupyter Notebook environment](#installation)1. [Jupyter Notebook environment](#Jupyter Notebook environment)
+1. [Jupyter Notebook environment](#Jupyter_Notebook_environment)1. [Jupyter Notebook environment](#Jupyter Notebook environment)
 2. [Dataset](#dataset-preparation)
 3. [Training](#training)
 4. [Testing](#testing)
