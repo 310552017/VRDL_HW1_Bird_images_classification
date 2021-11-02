@@ -14,7 +14,7 @@ To reproduct the testing prediction, please follow the steps below:
 3. [Training](#training)
 4. [Testing](#testing)
 
-## Jupyter Notebook environment
+## environment
 Jupyter_Notebook_environment.txt contains all packages version of Jupyter Notebook
 - Python 3.8.0
 
