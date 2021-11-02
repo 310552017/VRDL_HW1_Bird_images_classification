@@ -49,6 +49,9 @@ Testing predition will be recorded in the answer.txt file.
 ### Pretrained models
 Pretrained resnet152 model which is provided by pytorch.
 
+### Link of my trained model
+https://drive.google.com/file/d/1iCOjVgxlylJZvYKv4O_5bALpdgkBAQ7_/view?usp=sharing
+
 ### Load my trained parameters
 Load the trained model parameters without retraining again.
 
