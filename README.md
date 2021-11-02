@@ -14,7 +14,7 @@ To reproduct the testing prediction, please follow the steps below:
 3. [Training](#training)
 4. [Testing](#testing)
 
-## environment
+## Environment
 Jupyter_Notebook_environment.txt contains all packages version of Jupyter Notebook
 - Python 3.8.0
 
@@ -27,4 +27,14 @@ Jupyter_Notebook_environment.txt contains all packages version of Jupyter Notebo
 4. Create folder "training_images"、"training_labeled_images"、"testing_images"、"testing_labeled_images" in "images".
 5. Extract the training image into "training_images" folder.
 6. Extract the testing image into "testing_images" folder.
-7. Then run the "image_label_classification" code will classify the image according to their labels.
+7. Then run the "image_label_classification.ipynb" code will classify the image according to their labels.
+
+
+## Training
+Upload the "310552017_Adjust_ResNet152.ipynb" file to colab with google drive to run the below code.
+Remember to replace the root of the image file with your root.
+The expected training times are:
+
+Model | learning rate | Image size | Training Epochs | Batch size
+------------ | ------------- | ------------- | ------------- | -------------
+resnet152 | 0.001 | 224 | 15 | 32
