@@ -8,8 +8,8 @@ External data is NOT allowed to train the model!
 - Google Colab
 
 ## Reproducing Submission
-To reproduct my submission without retrainig, do the following steps:
-1. [Installation](#installation)1. [Jupyter Notebook environment](#Jupyter Notebook environment)
+To reproduct the testing prediction, please follow the:
+1. [Jupyter Notebook environment](#installation)1. [Jupyter Notebook environment](#Jupyter Notebook environment)
 2. [Dataset](#dataset-preparation)
 3. [Training](#training)
 4. [Testing](#testing)
