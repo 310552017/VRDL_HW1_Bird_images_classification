@@ -33,14 +33,15 @@ Jupyter_Notebook_environment.txt contains all packages version of Jupyter Notebo
 ## Training
 Upload the "310552017_Adjust_ResNet152.ipynb" and the classfied dataset file which is classify above to colab with google drive and running "310552017_Adjust_ResNet152.ipynb" file to training the model.
 Remember to replace the root of the image file with your root.
-The expected training times are:
+The training parameters are:
 
-Model | learning rate | Image size | Training Epochs | Batch size
------------- | ------------- | ------------- | ------------- | -------------
-resnet152 | 0.001 | 224 | 15 | 32
+Model | learning rate | Image size | Training Epochs | Batch size | optimizer
+------------ | ------------- | ------------- | ------------- | ------------- | -------------
+resnet152 | 0.001 | 224 | 15 | 32 | SGD
 
 ## testing
 Testing accuracy with 15 epochs could reach 63% after upload to codalab.
+Testing predition will be recorded in the answer.txt file.
 
 ### Pretrained models
 Pretrained resnet152 model which is provided by pytorch.
