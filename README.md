@@ -49,7 +49,7 @@ Testing predition will be recorded in the answer.txt file.
 ### Pretrained models
 Pretrained resnet152 model which is provided by pytorch.
 
-### load my trained parameters
+### Load my trained parameters
 Load the trained model parameters without retraining again.
 
 "Adjust_resnet152.pth" needs to be upload into google drive according to your root.
