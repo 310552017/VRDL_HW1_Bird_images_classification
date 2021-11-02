@@ -41,6 +41,7 @@ resnet152 | 0.001 | 224 | 15 | 32 | SGD
 
 ## testing
 Testing accuracy with 15 epochs could reach 63% after upload to codalab.
+
 Testing predition will be recorded in the answer.txt file.
 
 ### Pretrained models
@@ -48,7 +49,11 @@ Pretrained resnet152 model which is provided by pytorch.
 
 ### load my trained parameters
 Load the trained model parameters without retraining again.
+
 "Adjust_resnet152.pth" needs to be upload into google drive according to your root.
+
 checkpoint = torch.load("/content/drive/MyDrive/Adjust_resnet152.pth")
+
 pretrained_model.load_state_dict(checkpoint["model_state_dict"])
+
 optimizer.load_state_dict(checkpoint["optimizer_state_dict"])
