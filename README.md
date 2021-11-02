@@ -9,6 +9,11 @@ External data is NOT allowed to train the model!
 
 ## Reproducing Submission
 To reproduct my submission without retrainig, do the following steps:
-1. [Installation](#installation)
-2. [Dataset Preparation](#dataset-preparation)
+1. [Jupyter Notebook environment](#Jupyter Notebook environment)
+2. [Dataset](#dataset-preparation)
 3. [Training](#training)
+4. [Testing](#testing)
+
+## Jupyter Notebook environment
+Jupyter_Notebook_environment.txt contains all packages version of Jupyter Notebook
+- Python 3.8.0
