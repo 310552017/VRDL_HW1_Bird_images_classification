@@ -31,10 +31,23 @@ Jupyter_Notebook_environment.txt contains all packages version of Jupyter Notebo
 
 
 ## Training
-Upload the "310552017_Adjust_ResNet152.ipynb" file to colab with google drive to run the below code.
+Upload the "310552017_Adjust_ResNet152.ipynb" and the classfied dataset file which is classify above to colab with google drive and running "310552017_Adjust_ResNet152.ipynb" file to training the model.
 Remember to replace the root of the image file with your root.
 The expected training times are:
 
 Model | learning rate | Image size | Training Epochs | Batch size
 ------------ | ------------- | ------------- | ------------- | -------------
 resnet152 | 0.001 | 224 | 15 | 32
+
+## testing
+Testing accuracy with 15 epochs could reach 63% after upload to codalab.
+
+### Pretrained models
+Pretrained resnet152 model which is provided by pytorch.
+
+### load my trained parameters
+Load the trained model parameters without retraining again.
+"Adjust_resnet152.pth" needs to be upload into google drive according to your root.
+checkpoint = torch.load("/content/drive/MyDrive/Adjust_resnet152.pth")
+pretrained_model.load_state_dict(checkpoint["model_state_dict"])
+optimizer.load_state_dict(checkpoint["optimizer_state_dict"])
