@@ -28,6 +28,7 @@ Jupyter_Notebook_environment.txt contains all packages version of Jupyter Notebo
 5. Extract the training image into "training_images" folder.
 6. Extract the testing image into "testing_images" folder.
 7. Then run the "image_label_classification.ipynb" code will classify the image according to their labels.
+8. There are some examples of the folder in this porject above.
 
 
 ## Training
@@ -58,4 +59,4 @@ Load the trained model parameters without retraining again.
 
 "Adjust_resnet152.pth" needs to be upload into google drive according to your root.
 
-Then run the code of "310552017_Adjust_ResNet152.ipynb" last two block of code could get the "answer.txt" which contains the result of my model.
+Then run the code of "inference.py" could get the "answer.txt" which contains the result of my model.
