@@ -1,1 +1,1 @@
-empty
+There will be 200 classes of folder according to the bird images label and each folder has the bird's image after running the "image_label_classification.ipynb" file.
