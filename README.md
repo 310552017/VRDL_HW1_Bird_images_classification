@@ -52,13 +52,10 @@ Pretrained resnet152 model which is provided by pytorch.
 ### Link of my trained model
 https://drive.google.com/file/d/1iCOjVgxlylJZvYKv4O_5bALpdgkBAQ7_/view?usp=sharing
 
-### Load my trained parameters
+### Inference
+
 Load the trained model parameters without retraining again.
 
 "Adjust_resnet152.pth" needs to be upload into google drive according to your root.
 
-checkpoint = torch.load("/content/drive/MyDrive/Adjust_resnet152.pth")
-
-pretrained_model.load_state_dict(checkpoint["model_state_dict"])
-
-optimizer.load_state_dict(checkpoint["optimizer_state_dict"])
+Then run the code of "310552017_Adjust_ResNet152.ipynb" last two block of code could get the "answer.txt" which contains the result of my model.
