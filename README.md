@@ -22,7 +22,7 @@ Jupyter_Notebook_environment.txt contains all packages version of Jupyter Notebo
 - Because of using pytorch to predict the image, imagefolder could be used to generate training and testing data.
 - Imagefolder needs the image be arranged in the folder according to their labels, so we need to classify the image with folders.
 1. Download the dataset from https://competitions.codalab.org/my/datasets/download/83f7141a-641e-4e32-8d0c-42b482457836.
-2. Create folder "data" .
+2. Set the downlroot according to your file path.
 3. Create folder "images" in "data"put the training image into "training_images" folder.
 4. Create folder "training_images"、"training_labeled_images"、"testing_images"、"testing_labeled_images" in "images".
 5. Extract the training image into "training_images" folder.
